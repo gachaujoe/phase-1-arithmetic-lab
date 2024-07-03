@@ -19,3 +19,9 @@ const src = babelResult.code
 jsdom({
   html, src
 });
+
+// helpers.js or setup.js
+global.num1 = 31;
+global.num2 = 2;
+global.num3 = 14;
+global.num4 = 10;
